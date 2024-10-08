@@ -1,23 +1,5 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { Minimal } from "@/images/logos";
+import { GitHubIcon, LinkedInIcon, ResumeIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Sahib Singh",
@@ -27,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "Jr. Full Stack Developer skilled in Angular, learning ReactJS, and passionate about building scalable, efficient applications with a focus on DevOps.",
   summary:
-    "Proficient in Angular, with experience in building scalable, responsive web applications. Currently expanding my knowledge of ReactJS to diversify my technical expertise. Focused on delivering high-quality projects and continuously learning new technologies to stay ahead in full stack development and DevOps.",
+    "Full Stack Developer with expertise in Next.js, React, Angular, and WordPress, specializing in creating responsive, performance-driven web applications. Proficient in frontend and backend development, I have worked on diverse projects, including e-commerce platforms, booking systems, and corporate websites. My skillset includes advanced CSS techniques, Firebase integration, AI technologies, and systematic trading systems, with a focus on delivering scalable, user-friendly solutions.",
   avatarUrl: "/avatar.png",  // Avatar image in public folder
   personalWebsiteUrl: "https://sahibsingh0.netlify.app",  // Your website
   contact: {
@@ -36,18 +18,22 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/SahibSingh",
+        url: "https://github.com/Sahibsingh00",
         icon: GitHubIcon,
+        target: "_blank",
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/sahib-0-singh/",
         icon: LinkedInIcon,
+        target: "_blank",
       },
       {
-        name: "X",
-        url: "https://x.com/SahibSingh",
-        icon: XIcon,
+        name: "Download CV",
+        url: "/SahibResume.pdf", // Replace with the actual path to your resume file
+        icon: ResumeIcon,
+        download: true,
+        target: "_blank",
       },
     ],
   },
@@ -110,7 +96,13 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "Angular",
+    "NextJS",
     "ReactJS",
+    "Tailwind CSS",
+    "Shadcn",
+    "Bootstrap",
+    "WordPress",
+    "WooCommerce",
     "Node.js",
     "Firebase",
     "MongoDB",
@@ -120,6 +112,7 @@ export const RESUME_DATA = {
     "CI/CD",
   ],
   projects: [
+ 
     {
       title: "Bagly",
       techStack: [
@@ -134,23 +127,37 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "bagly.com",
-        href: "https://bagly.com",  // Replace with your project link
+        href: "https://bagly.sahib.co.in",  // Replace with your project link
       },
     },
     {
-      title: "Dynamic Blog Platform",
-      techStack: [
-        "Lead Developer",
-        "Angular",
-        "Firebase",
-        "Firestore",
-      ],
-      description:
-        "Built a real-time blog platform with user authentication and role-based access control.",
+      title: "FanaticCoder Website",
+      techStack: ["Next.js", "JavaScript", "CSS"],
+      description: "Developed the official website for a web development company, showcasing their services, portfolio, and blog. Built with modern UI/UX practices, ensuring responsive design and seamless navigation.",
       logo: Minimal,
       link: {
-        label: "github.com",
-        href: "https://github.com/SahibSingh/dynamic-blog-platform",
+        label: "fanaticcoders.com",
+        href: "https://fanaticcoders.sahib.co.in",  // Replace with the actual project link
+      },
+    },
+    {
+      title: "Henna Art Booking Website",
+      techStack: ["Next.js", "Firebase", "Tailwind CSS", "Shadcn"],
+      description: "Developed a Henna art booking platform with user authentication, booking management, and dark/light mode options.",
+      logo: Minimal,
+      link: {
+        label: "henna-booking.com",
+        href: "https://hennaart.sahib.co.in/",  // Replace with the actual project link
+      },
+    },
+    {
+      title: "Dynamic WordPress Solutions for Ambitious Enterprises",
+      techStack: ["Full Stack Developer", "Angular", "WordPress", "JavaScript", "CSS"],
+      description: "Developed a modern and responsive WordPress website with optimized performance, security measures, and integrated payment systems for ambitious enterprises.",
+      logo: Minimal,
+      link: {
+        label: "wordpress-solution.com",
+        href: "https://wordpress-solution.sahib.co.in",  // Replace with the actual project link
       },
     },
     {
