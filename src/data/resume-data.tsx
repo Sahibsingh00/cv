@@ -31,7 +31,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Download CV",
-        url: "/SahibSinghResume.pdf",
+        url: "/SahibSingh.pdf",
         icon: ResumeIcon,
         download: true,
         target: "_blank",
