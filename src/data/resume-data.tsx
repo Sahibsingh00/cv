@@ -1,3 +1,4 @@
+
 import { Minimal } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, ResumeIcon } from "@/components/icons";
 
@@ -7,14 +8,14 @@ export const RESUME_DATA = {
   location: "Punjab, India, IST",
   locationLink: "https://www.google.com/maps/place/Punjab,+India",
   about:
-    "Jr. Full Stack Developer skilled in Angular, learning ReactJS, and passionate about building scalable, efficient applications with a focus on DevOps.",
+    "Jr. Full Stack Developer skilled in Angular, ReactJS, and Next.js, passionate about building scalable, efficient applications.",
   summary:
-    "Full Stack Developer with expertise in Next.js, React, Angular, and WordPress, specializing in creating responsive, performance-driven web applications. Proficient in frontend and backend development, I have worked on diverse projects, including e-commerce platforms, booking systems, and corporate websites. My skillset includes advanced CSS techniques, Firebase integration, AI technologies, and systematic trading systems, with a focus on delivering scalable, user-friendly solutions.",
-  avatarUrl: "/avatar.png",  // Avatar image in public folder
-  personalWebsiteUrl: "https://sahibsingh0.netlify.app",  // Your website
+    "Full Stack Developer with expertise in Angular, React, Next.js, and WordPress, specializing in creating responsive, performance-driven web applications. Proficient in frontend and backend development, I have worked on diverse projects, including e-commerce platforms, booking systems, and corporate websites. My skillset includes advanced CSS techniques, Firebase integration, AI technologies, and systematic trading systems, with a focus on delivering scalable, user-friendly solutions.",
+  avatarUrl: "/avatar.png",
+  personalWebsiteUrl: "https://cv.sahib.co.in",
   contact: {
-    email: "singh0sahib@gmail.com",  // Your email
-    tel: "+91 8437786328",  // Your phone number
+    email: "singh0sahib@gmail.com",
+    tel: "+91 8437786328",
     social: [
       {
         name: "GitHub",
@@ -30,7 +31,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Download CV",
-        url: "/SahibResume.pdf", // Replace with the actual path to your resume file
+        url: "/SahibSinghResume.pdf",
         icon: ResumeIcon,
         download: true,
         target: "_blank",
@@ -39,35 +40,31 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Beant College of Engineering & Technology",
-      degree: "Bachelor's Degree in Information Technology",
+      school: "Sardar Beant Singh State University",
+      degree: "Bachelor of Technology in Information Technology",
       start: "2020",
       end: "2024",
       cgpa: "7.92/10",
+    },
+    {
+      school: "S.S.M College",
+      degree: "Senior Secondary Education",
+      start: "2019",
+      end: "2020",
+      cgpa: "92.44%",
     },
   ],
   work: [
     {
       company: "Fanatic Coders",
       link: "https://fanticscoder.com",
-      badges: ["Remote"],
+      badges: ["Trainee"],
       title: "Software Engineer (Trainee)",
-      logo: Minimal,  // Replace with your logo
-      start: "July 2024",
-      end: null,
+      logo: Minimal,
+      start: "Jan 2024",
+      end: "Jul 2024",
       description:
-        "Developing an Angular-based e-commerce platform with a WordPress backend and WooCommerce REST API. Focus on performance optimization and responsive design.",
-    },
-    {
-      company: "IIT Ropar",
-      link: "https://www.iitrpr.ac.in",
-      badges: ["Intern"],
-      title: "AI and Data Science Trainee",
-      logo: Minimal,  // Replace with your logo
-      start: "Sep 2023",
-      end: "Feb 2024",
-      description:
-        "Completed AI and Data Science upskilling program (Level 3). Gained proficiency in Machine Learning algorithms, data analysis, and statistical modeling. Developed practical skills in Python programming for data science applications.",
+        "Developed an e-commerce platform using Angular, integrated WordPress and WooCommerce REST API. Focused on optimizing site performance and responsive design. Participated in a 6-month Angular training program.",
     },
     {
       company: "FutureFinder",
@@ -75,8 +72,8 @@ export const RESUME_DATA = {
       badges: ["Intern"],
       title: "Web Development Intern",
       logo: Minimal,  // Replace with your logo
-      start: "May 2024",
-      end: "Jun 2024",
+      start: "Jul 2023",
+      end: "Aug 2023",
       description:
         "Developed dynamic web applications using HTML, CSS, JavaScript, and ReactJS. Contributed to front-end and back-end projects.",
     },
@@ -85,90 +82,105 @@ export const RESUME_DATA = {
       link: "https://veintes.com",
       badges: ["Intern"],
       title: "ReactJS Developer Intern",
-      logo: Minimal,  // Replace with your logo
-      start: "Mar 2024",
-      end: "Apr 2024",
+      logo: Minimal,
+      start: "Jun 2022",
+      end: "Jul 2022",
       description:
-        "Built a Dashboard Admin Panel using ReactJS and Redux, focusing on state management and UI component reuse.",
+        "Developed a Dashboard Admin Panel using ReactJS, improving modularity and scalability. Optimized state management with React Hooks and Context API.",
+    },
+    {
+      company: "IIT Ropar",
+      link: "https://www.iitrpr.ac.in",
+      badges: ["Remote"],
+      title: "AI and Data Science Trainee",
+      logo: Minimal,
+      start: "Sep 2021",
+      end: "Feb 2022",
+      description:
+        "Completed training on AI and Machine Learning, gaining proficiency in algorithms and applying them in Python for data classification tasks. Improved predictive accuracy through advanced statistical modeling.",
     },
   ],
   skills: [
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "SQL",
     "Angular",
-    "NextJS",
-    "ReactJS",
-    "Tailwind CSS",
-    "Shadcn",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "TensorFlow",
+    "PyTorch",
+    "jQuery",
     "Bootstrap",
+    "Firebase",
     "WordPress",
     "WooCommerce",
-    "Node.js",
-    "Firebase",
-    "MongoDB",
-    "SQL/NoSQL",
-    "HTML/CSS",
-    "DevOps",
-    "CI/CD",
+    "Tailwind CSS",
+    "Shadcn",
+    "Electron",
+    "Ionic",
+    "ReactNative",
   ],
   projects: [
- 
     {
       title: "Bagly",
       techStack: [
-        "Full Stack Developer",
         "Angular",
         "WordPress",
         "WooCommerce API",
         "Node.js",
       ],
       description:
-        "E-commerce platform for ladies' bags, with dynamic product management and optimized performance.",
+        "Developed a feature-rich e-commerce platform for ladies' bags, focusing on dynamic product management and performance optimization.",
       logo: Minimal,
       link: {
         label: "bagly.com",
-        href: "https://bagly.sahib.co.in",  // Replace with your project link
+        href: "https://bagly.sahib.co.in",
       },
     },
     {
       title: "FanaticCoder Website",
       techStack: ["Next.js", "JavaScript", "CSS"],
-      description: "Developed the official website for a web development company, showcasing their services, portfolio, and blog. Built with modern UI/UX practices, ensuring responsive design and seamless navigation.",
+      description: "Designed and developed the official website for a web development company, incorporating modern UI/UX practices to ensure responsive design and seamless navigation.",
       logo: Minimal,
       link: {
         label: "fanaticcoders.com",
-        href: "https://fanaticcoders.sahib.co.in",  // Replace with the actual project link
+        href: "https://fanaticcoders.sahib.co.in",
       },
     },
     {
       title: "Henna Art Booking Website",
       techStack: ["Next.js", "Firebase", "Tailwind CSS", "Shadcn"],
-      description: "Developed a Henna art booking platform with user authentication, booking management, and dark/light mode options.",
+      description: "Engineered a comprehensive henna art booking platform featuring user authentication, booking management, and a toggle for dark/light mode.",
       logo: Minimal,
       link: {
         label: "henna-booking.com",
-        href: "https://hennaart.sahib.co.in/",  // Replace with the actual project link
+        href: "https://hennaart.sahib.co.in/",
       },
     },
     {
       title: "Dynamic WordPress Solutions for Ambitious Enterprises",
-      techStack: ["Full Stack Developer", "Angular", "WordPress", "JavaScript", "CSS"],
-      description: "Developed a modern and responsive WordPress website with optimized performance, security measures, and integrated payment systems for ambitious enterprises.",
+      techStack: ["Angular", "WordPress", "JavaScript", "CSS"],
+      description: "Constructed a modern, responsive WordPress website with integrated payment systems and robust security measures, tailored for ambitious enterprises.",
       logo: Minimal,
       link: {
         label: "wordpress-solution.com",
-        href: "https://wordpress-solution.sahib.co.in",  // Replace with the actual project link
+        href: "https://wordpress-solution.sahib.co.in",
       },
     },
     {
       title: "Portfolio Website",
-      techStack: ["Side Project", "Next.js", "Bootstrap"],
+      techStack: ["Next.js", "Bootstrap"],
       description:
-        "Personal portfolio website showcasing projects, resume, and blog posts, built using Next.js.",
+        "Created a personal portfolio website to effectively showcase my projects, resume, and blog posts, utilizing Next.js for performance and Bootstrap for responsive design.",
       logo: Minimal,
       link: {
         label: "sahibblogs.com",
-        href: "https://sahibsingh0.netlify.app",  // Your website link
+        href: "https://sahibsingh0.netlify.app",
       },
     },
   ],
